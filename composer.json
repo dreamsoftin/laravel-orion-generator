@@ -1,43 +1,52 @@
 {
-    "name": "digitaldream/laracrud",
-    "type": "library",
-    "description": "Do you have a well structured database and you want to make a Laravel Application on top of it. By using this tools you can generate Models which have necessary methods and property, Request class with rules, generate route from controllers method and its parameter and full features form with validation error message and more with a single line of command",
-    "keywords": ["Laravel","CRUD","Laravel Code Generator","Code Generator"],
-    "homepage": "https://github.com/digitaldreams/laracrud",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Tuhin Bepari",
-            "email": "digitaldreams40@gmail.com",
-            "homepage": "http://www.tuhinbepari.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.4.0",
-        "laravel/framework": ">=7.0",
-        "digitaldream/dbreader":"~1.0"
-    },
-    "require-dev":{
-
-    },
-   "suggest":{
-     "intervention/image": "For Image",
-     "tymon/jwt-auth": "For API authentication",
-     "dingo/api": "To make API"
-    },
-    "autoload": {
-     "psr-4": {
-            "LaraCrud\\": "src/lara-crud/"
-        }
-    },
+  "name": "dreamsoftin/laravel-orion-generator",
+  "type": "library",
+  "description": "Code Generator for Laravel Orion",
+  "keywords": [
+    "Laravel",
+    "Laravel Orion",
+    "CRUD",
+    "Laravel Code Generator",
+    "Code Generator"
+  ],
+  "homepage": "https://github.com/dreamsoftin/laravel-orion-generator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sachin Ganesh",
+      "email": "sachin@dreamsoftin.com",
+      "homepage": "http://www.dreamsoftin.com",
+      "role": "Developer"
+    }
+    {
+      "name": "Tuhin Bepari",
+      "email": "digitaldreams40@gmail.com",
+      "homepage": "http://www.tuhinbepari.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "laravel/framework": ">=7.0",
+    "digitaldream/dbreader": "~1.0"
+  },
+  "require-dev": {},
+  "suggest": {
+    "intervention/image": "For Image",
+    "tymon/jwt-auth": "For API authentication",
+    "dingo/api": "To make API"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraCrud\\": "src/lara-crud/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
         "LaraCrud\\LaraCrudServiceProvider"
       ],
-      "aliases": {
-      }
+      "aliases": {}
     }
   }
 }
